@@ -82,3 +82,6 @@ production:
   database: <%= ENV["BACKEND_DATABASE_NAME"] %>
   username: <%= ENV["BACKEND_DATABASE_USERNAME"] %>
   password: <%= ENV["BACKEND_DATABASE_PASSWORD"] %>
+  host: <%= ENV["BACKEND_DATABASE_HOST"] %>
+  port: <%= ENV["BACKEND_DATABASE_PORT"] %>
+  url: <%= ENV["BACKEND_DATABASE_URL"] %>
